@@ -60,7 +60,7 @@ An Automation Config with only the download base specified looks like this:
         "sharding": []
     }
 
-This example can also be viewed [here](https://github.com/10gen/mms-api-examples/blob/master/automation/api_usage_example/configs/api_0_clean.json)
+This example can also be viewed [here](https://github.com/10gen-labs/mms-api-examples/blob/master/automation/api_usage_example/configs/api_0_clean.json)
 
 #### Defining MongoDB Versions
 
@@ -83,7 +83,7 @@ MongoDB versions 2.6.5 and 2.6.6 looks like this:
     }
     
 With this configuration, the Automation Agent will download these MongoDB binaries from http://mongodb.org/downloads.
-This example can also be viewed [here](https://github.com/10gen/mms-api-examples/blob/master/automation/api_usage_example/configs/api_1_define_versions.json)
+This example can also be viewed [here](https://github.com/10gen-labs/mms-api-examples/blob/master/automation/api_usage_example/configs/api_1_define_versions.json)
 
 If you have a license for the Enterprise versions of MongoDB, these may be specified as:
 
@@ -263,7 +263,7 @@ On our simple single-server deployment, these fields might look like:
 
 Note that every processes must have a unique (but arbitrary `name`) and that the `replicaSets` configuration contains
 references to the process `name`s. A full configuration example can be found
-[here](https://github.com/10gen/mms-api-examples/blob/master/automation/api_usage_example/configs/api_3_create_replica_set.json).
+[here](https://github.com/10gen-labs/mms-api-examples/blob/master/automation/api_usage_example/configs/api_3_create_replica_set.json).
 
 #### Removing ("Unmanaging") A Process or Processes from the Automation Configuration
 
@@ -380,7 +380,7 @@ MongoDB custom [roles](https://docs.mms.mongodb.com/reference/cluster-configurat
         }
     ],
 
-A full configuration with authentication is shown [here](https://github.com/10gen/mms-api-examples/blob/master/automation/api_usage_example/configs/api_6_enable_auth.json)
+A full configuration with authentication is shown [here](https://github.com/10gen-labs/mms-api-examples/blob/master/automation/api_usage_example/configs/api_6_enable_auth.json)
 
 ## Automation Status
 
@@ -418,7 +418,7 @@ process will move from its current state to the new goal state.
 
 ## Example Code
 
-A full Python example can be found [here](https://github.com/10gen/mms-api-examples/blob/master/automation/test_automation_api.py).
+A full Python example can be found [here](https://github.com/10gen-labs/mms-api-examples/blob/master/automation/test_automation_api.py).
 This example gradually builds up a MongoDB deployment, going through the following phases:
 
 1. Setting up the download base.
@@ -429,7 +429,7 @@ This example gradually builds up a MongoDB deployment, going through the followi
 6. Converting this replica set to a single shard cluster.
 7. Enabling authentication
 
-The series of Automation Configs that are deployed can be found [here](https://github.com/10gen/mms-api-examples/tree/master/automation/api_usage_example/configs).
+The series of Automation Configs that are deployed can be found [here](https://github.com/10gen-labs/mms-api-examples/tree/master/automation/api_usage_example/configs).
 
 To run the code:
 
