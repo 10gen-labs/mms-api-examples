@@ -1,6 +1,7 @@
 {
   "options": {
-    "downloadBase": "/var/lib/mongodb-mms-automation"
+    "downloadBase": "/var/lib/mongodb-mms-automation",
+    "downloadBaseWindows" : "%SystemDrive%\\MMSAutomation\\versions"
   },
   "mongoDbVersions": [
     {
