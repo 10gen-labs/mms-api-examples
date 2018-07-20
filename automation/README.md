@@ -27,7 +27,7 @@ The document return follows the format of the [Cluster Configuration](https://do
 
 #### Example Usage
 
-    curl -u "MMS_USER_NAME:MMS_API_KEY" -H "Content-Type: application/json" "https://mms.mongod.com/api/public/v1.0/groups/GROUP_ID/automationConfig"  --digest -X PUT -d @/PATH/TO/CONFIG/config.json -i
+    curl -u "MMS_USER_NAME:MMS_API_KEY" -H "Content-Type: application/json" "https://mms.mongodb.com/api/public/v1.0/groups/GROUP_ID/automationConfig"  --digest -X PUT -d @/PATH/TO/CONFIG/config.json -i
 
 The document accepted by the PUT requires a subset of the fields return by the GET and explained in the
 [Cluster Configuration](https://docs.mms.mongodb.com/reference/cluster-configuration/).  The details of 
